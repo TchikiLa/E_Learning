@@ -1,6 +1,6 @@
 # E_Learning
 # E_Learning_Web 
-#### E_learning est Appication Web de formation à distance implémenter en utilisant les spécifications et les services (Framework et API) JEE. 
+#### E_learning est une Appication Web de formation à distance implémenter en utilisant les spécifications et les services (Framework et API) JEE. 
 Dans ce travail, on vise à réaliser un système de formation à distance accessible aux enseignants et aux étudiants depuis n’importe quel ordinateur. 
 L’enseignant ajoute ses cours sur la plateforme. Ces derniers sont disponibles aux étudiants pour consultation et éventuellement téléchargement. 
 Les enseignants, auront la possibilité de déposer périodiquement des quiz et les étudiants doivent y répondre dans un délai précis.
