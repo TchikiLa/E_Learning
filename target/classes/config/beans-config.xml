@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+		
+	<bean id="assisterDao" class="com.Elearning.mvc.dao.impl.Impl_assisterDAO"/>
+	<bean id="assisterservice" class="com.Elearning.mvc.service.impl.Impl_Assister_Service">
+		<property name="dao" ref="assisterDao"></property>
+	</bean>
+	
+	<bean id="coursDao" class="com.Elearning.mvc.dao.impl.Impl_coursDAO"/>
+	<bean id="coursservice" class="com.Elearning.mvc.service.impl.Impl_Cours_Service">
+		<property name="dao" ref="coursDao"></property>
+	</bean>
+	
+	<bean id="enseignantDao" class="com.Elearning.mvc.dao.impl.Impl_enseignantDAO"/>
+	<bean id="enseignantservice" class="com.Elearning.mvc.service.impl.Impl_Enseignant_Service">
+		<property name="dao" ref="enseignantDao"></property>
+	</bean>
+	
+	<bean id="enseignerDao" class="com.Elearning.mvc.dao.impl.Impl_enseignerDAO"/>
+	<bean id="enseignerservice" class="com.Elearning.mvc.service.impl.Impl_Enseigner_Service">
+		<property name="dao" ref="enseignerDao"></property>
+	</bean>
+	
+	<bean id="etudiantDao" class="com.Elearning.mvc.dao.impl.Impl_etudiantDAO"/>
+	<bean id="etudiantservice" class="com.Elearning.mvc.service.impl.Impl_Etudiant_Service">
+		<property name="dao" ref="etudiantDao"></property>
+	</bean>
+	
+	<bean id="examainDao" class="com.Elearning.mvc.dao.impl.Impl_examainDAO"/>
+	<bean id="examainservice" class="com.Elearning.mvc.service.impl.Impl_Examain_Service">
+		<property name="dao" ref="examainDao"></property>
+	</bean>
+	
+	<bean id="questionDao" class="com.Elearning.mvc.dao.impl.Impl_questionsDAO"/>
+	<bean id="questionservice" class="com.Elearning.mvc.service.impl.Impl_Question_Service">
+		<property name="dao" ref="questionDao"></property>
+	</bean>
+	<bean id="utilisateurDao" class="com.Elearning.mvc.dao.impl.Impl_utilisateurDAO"/>
+	<bean id="utilisateurservice" class="com.Elearning.mvc.service.impl.Impl_Utilisateur_Service">
+		<property name="dao" ref="utilisateurDao"></property>
+	</bean>
+
+</beans>
